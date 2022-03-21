@@ -1,11 +1,11 @@
 #include "main.h"
-#include stdio.h
 
 /**
 *main - check the code
+*reset_to_98 - updates the value *n points to.
 */
-int main(void)
+void reset_to_98(int *n)
 {
-int *n = 98;
+*n = 98;
 
 }
